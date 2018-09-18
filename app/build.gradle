@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.fpts.mobile.eztrading"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "4.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    flavorDimensions "default"
+    dataBinding {
+        enabled = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        main {
+            res.srcDirs = ['src/main/res',
+                           'src/main/res/layouts/watchlist',
+                           'src/main/res/layouts/market_overview',
+                           'src/main/res/layouts/main/',
+                           'src/main/res/layouts/home/',
+                           'src/main/res/layouts/login/',
+                           'src/main/res/layouts/order/',
+                           'src/main/res/layouts/news/',
+                           'src/main/res/layouts/chart/',
+                           'src/main/res/layouts/events/',
+                           'src/main/res/layouts/world_index/',
+                           'src/main/res/layouts/mainmenu/',
+                           'src/main/res/layouts/user/',
+                           'src/main/res/layouts/watchlist_derivated/',
+                           'src/main/res/layouts/watchlist_search_stock/',
+                           'src/main/res/layouts/mainmenu/', 'src/main/res/layouts/market_detail']
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.github.nkzawa:socket.io-client:0.6.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.intuit.sdp:sdp-android:1.0.5'
+    implementation 'org.jsoup:jsoup:1.10.1'
+    //Chart
+    implementation project(':MPChartLib')
+    implementation 'org.jsoup:jsoup:1.10.1'
+    implementation project(':privatefpts')
+}
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}

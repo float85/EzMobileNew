@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txtAdapterAuto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_item_watchlist_search_recyclerview"
+    android:padding="4dp"
+    android:textColor="#2C3E50"
+    android:textSize="10dp">
+
+
+</TextView>

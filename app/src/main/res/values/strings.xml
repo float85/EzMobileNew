@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">EzMobile</string>
+
+    <!--Đặt Lệnh-->
+    <string name="order_basic_buying_power">Sức mua: </string>
+    <string name="order_remaining_credit_line">Hạn mức: </string>
+    <string name="order_securities_symbol">Mã CK </string>
+    <string name="order_buy1">Mua 1</string>
+    <string name="order_sell1">Bán 1</string>
+    <string name="order_buy_sell">Mua / Bán</string>
+    <string name="order_product_type">Product type</string>
+    <string name="order_quantity">Quantity</string>
+    <string name="order_price">Price (x1000)</string>
+    <string name="order_price_01">Price</string>
+    <string name="order_cashbuy">Cashbuy</string>
+    <string name="order_trading_password">Trading Password</string>
+    <string name="order_confirm">Confirm</string>
+    <string name="order_symbol_does_not_exist">Symbol does not exist</string>
+    <string name="watchlist_ceil">Ceil</string>
+    <string name="watchlist_floor">Floor</string>
+    <string name="watchlist_ref">Ref</string>
+    <string name="watchlist_last">Giá khớp</string>
+
+    <!--Login-->
+    <string name="txtForgotPassword"><a href="https://accounts.fpts.com.vn/forgotpassword">Forgot password?</a></string>
+    <string name="txtHelp"><a href="https://accounts.fpts.com.vn/help?s=14">Help</a></string>
+    <string name="txtRegister"><a href="http://ezopen.fpts.com.vn/pages/default.aspx">Register</a></string>
+    <string name="login">Log in</string>
+    <string name="Remember_account">Remember account</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="username">UserName</string>
+
+    <!--HOME-->
+    <string name="home_symbol">Symbol</string>
+    <string name="home_last">Last</string>
+    <string name="home_change">Change</string>
+    <string name="home_change_per">Change %</string>
+    <!--◥-->
+    <string name="home_value_bill">Giá trị (tỷ)</string>
+    <string name="home_qty">Khối lượng</string>
+
+    <!--EVENTS-->
+    <string name="progressbar">loading ...</string>
+    <string name="events">Events</string>
+    <string name="lich_su_kien">Events</string>
+    <string name="events_yesterday">Yesterday</string>
+    <string name="events_today">Today</string>
+    <string name="events_tomorrow">Tomorrow</string>
+    <string name="events_thisweek">This Week</string>
+    <string name="events_nextweek">Next Week</string>
+
+    <!--Search-->
+    <string name="hint_search_toolbar">Search</string>
+
+
+    <!--WATCHLIST-->
+    <string name="watchlist">Watchlist</string>
+    <string name="watchlist_derivate">Bảng giá phái sinh</string>
+    <string name="watchlist_symbol">Symbol</string>
+    <!--NEWS-->
+    <string name="news">Tin tức</string>
+    <string name="market_news">Tin thị trường</string>
+    <string name="department_report">Nghiên cứu Ngành</string>
+    <string name="concern">Nghiên cứu Doanh nghiệp</string>
+    <string name="analysis_comment">Phân tích kỹ thuật</string>
+    <string name="FPTS_news">Bản tin FPTS</string>
+    <string name="related_news">Related News</string>
+    <string name="news_details">News details</string>
+
+    <!--marketDetail-->
+    <string name="detaihome_UpDownTitle">Up/Down stocks</string>
+    <string name="detaihome_putthrough">Putthrough</string>
+    <string name="dialog_error">No internet</string>
+
+    <string name="marketOverview_detail_txtS1Val"><![CDATA[<font>Val: %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtS1Qty"><![CDATA[<font>Qty: %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtS1UpDow"><![CDATA[<font>( %1$s %2$s %3$s%%)</font>]]></string>
+
+    <string name="marketOverview_detail_txtChange"><![CDATA[<font>( %1$s </font>]]></string>
+    <string name="marketOverview_detail_txtChangePrecent"><![CDATA[<font> %1$s%%)</font>]]></string>
+    <string name="marketOverview_detail_txtPutVol"><![CDATA[<font>Qty: %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtPutVal"><![CDATA[<font>Val: %1$s bil</font>]]></string>
+
+    <string name="marketOverview_detail_txtUp"><![CDATA[<font>▲ %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtBt"><![CDATA[<font>■ %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtDown"><![CDATA[<font>▼ %1$s</font>]]></string>
+
+    <!--MARKET OVERVIEW CHART-->
+    <string name="one_day">1D</string>
+    <string name="one_month">1M</string>
+    <string name="one_week">1W</string>
+    <string name="three_month">3M</string>
+    <string name="six_month">6M</string>
+    <string name="one_year">1Y</string>
+    <string name="two_year">2Y</string>
+    <string name="all">ALL</string>
+
+    <!--MARKET OVERVIEW tablayout-->
+    <string name="change">Change</string>
+    <string name="change_percent">Change %</string>
+    <string name="volumn">Volumn</string>
+    <string name="low">Low</string>
+    <string name="high">High</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="symbol">Symbol</string>
+    <string name="value_bil">Value (bil)</string>
+    <string name="last">Last</string>
+    <string name="indexes">Indexes</string>
+
+    <!--DETAIL MARKET-->
+    <string name="detailhome_tablayout_chart">Chart</string>
+    <string name="detailhome_tablayout_topgainers">Top Gainers</string>
+    <string name="detailhome_tablayout_toplosers">Top Losers</string>
+    <string name="detailhome_tablayout_mostactive">Most Active</string>
+
+    <!--CHART-->
+    <string name="chart1">Biểu đồ</string>
+    <!--SEARCH-->
+    <string name="hint_search_autotextview">Tìm kiếm mã chứng khoán</string>
+    <string name="string_search_recent">-------------- Tìm kiếm gần đây --------------</string>
+    <string name="button_huybo">Hủy bỏ</string>
+
+
+    <string name="home_menutab_overview">Overview</string>
+    <string name="home_menutab_property">Property</string>
+    <string name="home_menutab_order_placing">Oder placing</string>
+    <string name="home_menutab_del_edit">Del/Edit</string>
+    <string name="home_menutab_money_transfer">Money Transter</string>
+    <string name="HOSE">HOSE</string>
+    <string name="chart_fast_avg_12">Fast avg (12)</string>
+    <string name="chart_slow_avg_26">Slow avg (26)</string>
+    <string name="chart_singal_avg_9">Singal avg (9)</string>
+    <string name="chart_period_14">Period (14)</string>
+    <string name="chart_K_avg_3">%K avg (3)</string>
+    <string name="chart_D_avg_3">%D avg (3)</string>
+    <string name="chart_period_20">Period (20)</string>
+    <string name="chart_deviations_2">Deviations (2.0)</string>
+    <string name="chart_first_period_5">First period (5)</string>
+    <string name="watchlist_detail_match_price">Giá Khớp</string>
+    <string name="watchlist_detail_match_qty">KL Khớp</string>
+    <string name="watchlist_detail_change">+/-</string>
+    <string name="watchlist_detail_qty">Khối lượng</string>
+    <string name="watchlist_detail_open_qty">KL mở</string>
+    <string name="watchlist_detail_buy_price_3">G.M3</string>
+    <string name="watchlist_detail_buy_price_2">G.M2</string>
+    <string name="watchlist_detail_buy_qty_3">KL.M3</string>
+    <string name="watchlist_detail_buy_qty_2">KL.M2</string>
+    <string name="watchlist_detail_buy_price_1">G.M1</string>
+    <string name="watchlist_detail_buy_qty1">KL.M1</string>
+    <string name="watchlist_detail_sell_price_1">G.B1</string>
+    <string name="watchlist_detail_sell_qty_1">KL.B1</string>
+    <string name="watchlist_detail_sell_price_2">G.B2</string>
+    <string name="watchlist_detail_sell_qty_2">KL.B2</string>
+    <string name="watchlist_detail_sell_price_3">G.B3</string>
+    <string name="watchlist_detail_sell_qty_3">KL.B3</string>
+    <string name="watchlist_detail_priceTC">TC</string>
+    <string name="watchlist_detail_priceCeiling">Trần</string>
+    <string name="watchlist_detail_priceFloor">Sàn</string>
+    <string name="watchlist_detail_priceOpen">Mở</string>
+    <string name="watchlist_detail_priceHigh">Cao</string>
+    <string name="watchlist_detail_priceLow">Thấp</string>
+    <string name="watchlist_detail_priceForeignBuy">NN Mua</string>
+    <string name="watchlist_detail_priceForeignSell">NN Bán</string>
+    <string name="watchlist_detail_maturity_date">Ngày ĐH</string>
+
+    <string name="watchlist_detail_khoi_luong_duoc_mua">Khối lượng được mua</string>
+    <string name="watchlist_detail_khoi_luong_hien_tai">Khối lượng hiện tại:</string>
+    <string name="watchlist_detail_khoi_luong_con_lai">Khối lượng còn lại:</string>
+    <string name="watchlist_detail_ty_le_so_huu">Tỷ lệ sở hữu (%):</string>
+    <string name="watchlist_detail_nn_mua_YTD">NN Mua (YTD):</string>
+    <string name="watchlist_detail_nn_mua_YTD_30ngay">NN Mua (YTD 30 ngày:</string>
+    <string name="watchlist_detail_cap_nhat_den">Cập nhật đến:</string>
+    <string name="watchlist_detail_thong_ke_gia">THỐNG KÊ GIÁ</string>
+    <string name="watchlist_detail_thong_ke_dat_lenh">THỐNG KÊ ĐẶT LỆNH</string>
+    <string name="watchlist_detail_TranDateUS">TranDateUS</string>
+    <string name="watchlist_detail_thong_ke_NDT_nuoc_ngoai">THỐNG KÊ NHÀ ĐẦU TƯ NƯỚC NGOÀI</string>
+    <string name="watchlist_detail_AP">AP</string>
+    <string name="watchlist_detail_NTQ">NTQ</string>
+    <string name="watchlist_detail_NTV">NTV</string>
+    <string name="watchlist_detail_TTV">TTV</string>
+    <string name="watchlist_detail_TTQ">TTQ</string>
+    <string name="watchlist_detail_PTV">PTV</string>
+    <string name="watchlist_detail_PTQ">PTQ</string>
+    <string name="watchlist_detail_changePer">PercentPrice</string>
+    <string name="watchlist_detail_priceLowest">Lowest</string>
+    <string name="watchlist_detail_priceHighest">Highest</string>
+    <string name="watchlist_detail_priceClose">Close</string>
+    <string name="watchlist_detail_bid_count">BID COUNT</string>
+    <string name="watchlist_detail_total_bid_qtty">TOTAL BID QTTY</string>
+    <string name="watchlist_detail_offer_count">OFFER COUNT</string>
+    <string name="watchlist_detail_total_offer_qtty">TOTAL OFFER QTTY</string>
+    <string name="watchlist_detail_bid_offer">BID OFFER</string>
+    <string name="watchlist_detail_ceiling_price">CEILING PRICE</string>
+    <string name="watchlist_detail_floor_price">FLOOR PRICE</string>
+    <string name="watchlist_detail_basic_price">BASIC PRICE</string>
+    <string name="watchlist_detail_best_bid_price">BEST BID PRICE</string>
+    <string name="watchlist_detail_best_bid_qtty">BEST BID QTTY</string>
+    <string name="watchlist_detail_best_offer_price">BEST OFFER PRICE</string>
+    <string name="watchlist_detail_best_offer_qtty">BEST OFFER QTTY</string>
+    <string name="watchlist_detail_current_vol">CURRENT VOL</string>
+    <string name="watchlist_detail_current_per">CURRENT PER</string>
+    <string name="watchlist_detail_current_rem">CURRENT REM</string>
+    <string name="watchlist_detail_buy_vol">BUY VOL</string>
+    <string name="watchlist_detail_buy_per">BUY PER</string>
+    <string name="watchlist_detail_buy_val">BUY VAL</string>
+    <string name="watchlist_detail_buy_val_per">BUY VALPER</string>
+    <string name="watchlist_detail_sell_vol">SELL VOL</string>
+    <string name="watchlist_detail_sell_per">SELL PER</string>
+    <string name="watchlist_detail_sell_val">SELL VAL</string>
+    <string name="watchlist_detail_sell_val_per">SELL VALPER</string>
+    <string name="watchlist_detail_GDKL">GDKL:</string>
+    <string name="watchlist_detail_GDTT">GDTT:</string>
+    <string name="watchlist_detail_ceiling">Trần:</string>
+    <string name="watchlist_detail_tc">TC:</string>
+    <string name="watchlist_detail_floor">Sàn:</string>
+    <string name="watchlist_detail_open">Mở:</string>
+    <string name="watchlist_detail_heighest">Cao nhất:</string>
+    <string name="watchlist_detail_lowest">Thấp nhất:</string>
+    <string name="watchlist_detail_nnmua">NN Mua:</string>
+    <string name="watchlist_detail_nnban">NN Bán:</string>
+    <string name="watchlist_detail_best_price_buy">Giá Bán tốt nhất</string>
+    <string name="watchlist_detail_best_price_sell">Giá Mua tốt nhất</string>
+    <string name="watchlist_detail_klbq_30_ngay">KLbq 30 ngày</string>
+    <string name="watchlist_detail_gia_thap_nhat_52_tuan">Giá thấp nhấ 52T</string>
+    <string name="watchlist_detail_gia_cao_nhat_52_tuan">Giá cao nhất 52T</string>
+    <string name="watchlist_detail_nn_mua_YDT">NN mua (YDT)</string>
+    <string name="watchlist_detail_nuoc_ngoai">%Nước ngoài</string>
+    <string name="watchlist_detail_von_hoa">Vốn hóa</string>
+    <string name="watchlist_detail_ESP">ESP</string>
+    <string name="watchlist_detail_ESP_dieu_chinh">ESP điều chỉnh</string>
+    <string name="watchlist_detail_PE">P/E</string>
+    <string name="watchlist_detail_PB">P/B</string>
+    <string name="watchlist_detail_gia_tri_so_sach">Giá trị sổ sách</string>
+    <string name="watchlist_detail_KLDNY">KLDNY</string>
+    <string name="watchlist_detail_news">News</string>
+    <string name="watchlist_detail_analysis">Analysis</string>
+    <string name="watchlist_detail_comment">Comment</string>
+    <string name="watchlist_detail_buy">MUA</string>
+    <string name="watchlist_detail_sell">BÁN</string>
+    <string name="watchlist_detail_trading">Giao dịch</string>
+    <string name="watchlist_detail_statistics">Thống kê</string>
+    <string name="watchlist_detail_foreign_owner">Sở hữu NN</string>
+    <string name="watchlist_detail_financial">Tài chính</string>
+    <string name="watchlist_financial_figures"><![CDATA[Chỉ số & Chi tiêu]]></string>
+    <string name="watchlist_add_code_success">Thêm thành công</string>
+    <string name="watchlist_add_code_error">Đã có trong danh sách</string>
+    <string name="world_indexes">Chỉ số thế giới</string>
+
+
+</resources>

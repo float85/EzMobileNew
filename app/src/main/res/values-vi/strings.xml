@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Order-->
+    <string name="order_basic_buying_power">Sức mua: </string>
+    <string name="order_remaining_credit_line">Hạn mức: </string>
+    <string name="order_securities_symbol">Mã CK </string>
+    <string name="order_buy_sell">Mua / Bán</string>
+    <string name="order_product_type">Loại GD </string>
+    <string name="order_quantity">Khối lượng</string>
+    <string name="order_price">Giá (x1000)</string>
+    <string name="order_price_01">Giá</string>
+    <string name="order_cashbuy">Giá trị lệnh mua:</string>
+    <string name="order_confirm">Xác Nhận</string>
+    <string name="order_trading_password">Mật khẩu GD</string>
+    <string name="order_symbol_does_not_exist">Mã CK không tồn tại</string>
+    <string name="watchlist_ceil">Trần</string>
+    <string name="watchlist_floor">Sàn</string>
+    <string name="watchlist_ref">TC</string>
+    <string name="watchlist_last">Giá khớp</string>
+
+
+    <!--Login-->
+    <string name="txtForgotPassword"><a href="https://accounts.fpts.com.vn/forgotpassword">Quên mật khẩu?</a></string>
+    <string name="txtHelp"><a href="https://accounts.fpts.com.vn/help?s=14">Hỗ trợ</a></string>
+    <string name="txtRegister"><a href="http://ezopen.fpts.com.vn/pages/default.aspx">Đăng kí</a></string>
+
+    <string name="login">Đăng nhập</string>
+    <string name="error_login_user">Nhập tài khoản</string>
+    <string name="error_login_length">Tài khoản phải đủ 10 kí tự</string>
+    <string name="Remember_account">Ghi nhớ tài khoản</string>
+    <string name="password">Mật khẩu</string>
+    <string name="don_t_have_an_account">Bạn chưa có tài khoản?</string>
+    <string name="username">Tên đăng nhập</string>
+
+    <!--TRANG CHỦ-->
+    <string name="home_symbol">Mã CK</string>
+    <string name="home_last">Giá</string>
+    <string name="home_change">Thay đổi </string>
+    <string name="home_change_per">Thay đổi %</string>
+    <string name="home_value_bill">Giá trị (tỷ)</string>
+    <string name="home_qty">Khối lượng</string>
+
+    <!--EVENTS-->
+    <string name="events">Sự kiện</string>
+    <string name="progressbar">    Vui lòng chờ .....</string>
+    <string name="events_yesterday">Hôm qua</string>
+    <string name="events_today">Hôm nay</string>
+    <string name="events_tomorrow">Ngài mai</string>
+    <string name="events_thisweek">Tuần này</string>
+    <string name="events_nextweek">Tuần sau</string>
+    <string name="lich_su_kien">Lịch sự kiện</string>
+
+    <!--Search-->
+    <string name="hint_search_toolbar">Tìm kiếm</string>
+    <!--BẢNG GIÁ-->
+    <string name="watchlist">Watchlist</string>
+    <string name="watchlist_derivate">Bảng giá phái sinh</string>
+    <string name="watchlist_symbol">Symbol</string>
+
+    <!--NEWS-->
+    <string name="news">Tin tức</string>
+    <string name="market_news">Tin thị trường</string>
+    <string name="department_report">Nghiên cứu Ngành</string>
+    <string name="concern">Nghiên cứu Doanh nghiệp</string>
+    <string name="analysis_comment">Phân tích kỹ thuật</string>
+    <string name="FPTS_news">Bản tin FPTS</string>
+    <string name="related_news">Tin liên quan</string>
+    <string name="news_details">Tin chi tiết</string>
+
+    <!--marketDetail-->
+    <string name="detaihome_UpDownTitle">Số mã Tăng/Giảm</string>
+    <string name="detaihome_putthrough">Thỏa thuận</string>
+    <string name="dialog_error">Chưa có mạng</string>
+
+    <string name="marketOverview_detail_txtS1Val"><![CDATA[<font>Val: %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtS1Qty"><![CDATA[<font>Qty: %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtS1UpDow"><![CDATA[<font>( %1$s %2$s %3$s%%)</font>]]></string>
+
+    <string name="marketOverview_detail_txtChange"><![CDATA[<font>( %1$s </font>]]></string>
+    <string name="marketOverview_detail_txtChangePrecent"><![CDATA[<font> %1$s%%)</font>]]></string>
+    <string name="marketOverview_detail_txtPutVol"><![CDATA[<font>Qty: %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtPutVal"><![CDATA[<font>Val: %1$s bil</font>]]></string>
+
+    <string name="marketOverview_detail_txtUp"><![CDATA[<font>▲ %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtBt"><![CDATA[<font>■ %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtDown"><![CDATA[<font>▼ %1$s</font>]]></string>
+
+    <!--MARKET OVERVIEW CHART-->
+    <string name="one_day">1D</string>
+    <string name="one_month">1M</string>
+    <string name="one_week">1W</string>
+    <string name="three_month">3M</string>
+    <string name="six_month">6M</string>
+    <string name="one_year">1Y</string>
+    <string name="two_year">2Y</string>
+    <string name="all">ALL</string>
+
+    <!--MARKET OVERVIEW tablayout-->
+    <string name="change">Thay đổi</string>
+    <string name="change_percent">Thay đổi %</string>
+    <string name="volumn">Khối lượng</string>
+    <string name="low">Thấp</string>
+    <string name="high">Cao</string>
+    <string name="close">Đóng</string>
+    <string name="open">Mở</string>
+    <string name="symbol">Mã CK</string>
+    <string name="value_bil">Giá trị(tỷ)</string>
+    <string name="last">Giá</string>
+    <string name="indexes">Chỉ số</string>
+
+    <!--DETAIL MARKET-->
+    <string name="detailhome_tablayout_chart">Biểu Đồ</string>
+    <string name="detailhome_tablayout_topgainers">Tăng Mạnh</string>
+    <string name="detailhome_tablayout_toplosers">Giảm Mạnh</string>
+    <string name="detailhome_tablayout_mostactive">GD Nhiều</string>
+
+    <!--Chart-->
+    <string name="chart1">Biểu đồ</string>
+    <string name="chart_error_message_values">Giá trị không được lớn hơn giá trị mặc định!</string>
+
+    <!--SEARCH-->
+    <string name="hint_search_autotextview">Tìm kiếm mã chứng khoán</string>
+    <string name="string_search_recent">-------------- Tìm kiếm gần đây --------------</string>
+    <string name="button_huybo">Hủy bỏ</string>
+</resources>

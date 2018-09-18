@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">privatefpts</string>
+
+    <string name="order_symbol_does_not_exist">Symbol does not exist</string>
+    <string name="Price_must_be_between">Price must be between</string>
+
+</resources>
